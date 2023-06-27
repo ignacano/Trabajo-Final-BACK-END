@@ -15,7 +15,7 @@ const FormularioOfrezco = () => {
 
     const saveForm = async (e) => {
         e.preventDefault();
-        const response = await fetch('http://127.0.0.1:3001/ofertas/create', {
+        const response = await fetch('http://127.0.0.1:3001/ofertas/create/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
