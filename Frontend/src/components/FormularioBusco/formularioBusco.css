@@ -1,0 +1,154 @@
+*{
+    text-decoration: none;
+    font-family: Comfortaa; 
+}
+
+.formBusco {
+    text-align: center;   
+}
+
+.App-logo-home {
+    height: 25vmin;
+    pointer-events:none;   
+    padding: 5%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo-home {
+    animation: App-logo-spin infinite 3s linear;
+    }
+}
+
+.formBuscoHeader {
+    background-color: #ffffff;
+    background-image: url('../../img/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(226, 226, 226);
+}
+
+.App-link {
+    
+    color: #e7e2e2;
+    font-weight: bold;
+    
+}
+
+@keyframes App-logo-spin {
+    from {
+    transform:rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+.textoBienvenida{
+    margin: 2%;
+    padding: 2%;
+}
+
+.containerBienvenida{
+    opacity: 0.7;
+    margin: 2%;
+    padding: 10%;
+}
+
+.nombreMarca{
+    margin-bottom: 4%;
+    font-size: x-large;
+}
+
+.textoMarca{
+    font-weight: bolder;
+}
+
+
+
+.botonSubmit{
+    margin: 5%;    
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;  
+}
+
+.botonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-63:active,
+.button-63:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+    }
+}
+
+.knowMore{
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+
+.descripcionServicio{
+    font-size: smaller;
+}
+
+.resaltarEnunciado{
+    font-weight:bolder;
+    margin-top: 5%;
+}
+
+.arrowDown{
+    margin: 0;
+    padding-bottom: 3%;
+    height: 10vmin;
+}
+
+.arrowDown:hover {
+    opacity: 0.7;
+}
+
+.enviarSolicitud{
+    font-weight: bolder;
+}
+
+.text-muted{
+    font-size: small;
+    color: #ffffff !important;
+}
+
+.mb-3{
+    opacity: 0.9;
+}

@@ -1,0 +1,13 @@
+.footerContainer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    background-color: rgba(131, 129, 126, 0.5);
+}
+
+.trademark{
+    font-size: x-small;
+}
+
